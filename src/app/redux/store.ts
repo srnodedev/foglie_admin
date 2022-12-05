@@ -1,7 +1,7 @@
 import { Action, applyMiddleware, combineReducers, createStore, Reducer } from "redux";
 import { composeWithDevTools } from "redux-devtools-extension";
 import thunk, { ThunkDispatch } from "redux-thunk";
- 
+
 import { AboutReducers, IAboutReduxState } from "../modules/about/ui/state/state";
 import { AuthenticationReducers, IAuthenticationReduxState } from "../modules/auth/ui/state/state";
 import { CategoryReducers, ICategoryReduxState } from "../modules/category/ui/state/state";
