@@ -1,0 +1,20 @@
+.list-table td {
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.list-table tr {
+  cursor: pointer;
+}
+
+.detail-table td {
+  max-width: 200px;
+  vertical-align: baseline;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
