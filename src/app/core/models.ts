@@ -7,7 +7,7 @@ export type Maybe<T> = T | undefined | null;
 export function isNullish<T>(data: Maybe<T>): data is null | undefined {
   return data === null || data === undefined;
 }
-
+ 
 export enum EProcessStatus {
   CANCELED = "CANCELED",
   ERROR = "ERROR",
